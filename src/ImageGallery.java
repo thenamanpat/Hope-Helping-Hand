@@ -1,5 +1,3 @@
-package basic.gallery;
-
 import javazoom.jl.player.Player;
 
 import javax.swing.*;
@@ -349,7 +347,6 @@ public class ImageGallery {
             catch (Exception e) {
                 e.printStackTrace();
             }
-            gameplay_music(-1);
             setup_gameButtons();
         }
         else {
